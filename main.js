@@ -9,8 +9,12 @@ body.style.backgroundColor = 'Black'
 
 x.onclick = function() {
     x.style.backgroundColor = 'yellow'
-    y.style.display = 'block'
+    setTimeout(function () {
+
+      y.style.display = 'block'
+  }, 2000)
 }
+
 y.onclick = function() {
    let xx = x.value
    window.alert(`اهلا ${xx} عاوز أقولك إني بحبك أوي 
