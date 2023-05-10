@@ -12,7 +12,7 @@ x.onclick = function() {
     setTimeout(function () {
 
       y.style.display = 'block'
-  }, 2000)
+  }, 6000)
 }
 
 y.onclick = function() {
